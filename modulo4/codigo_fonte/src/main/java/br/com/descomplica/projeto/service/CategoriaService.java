@@ -22,6 +22,7 @@ public class CategoriaService {
 	}
 	
 	public Categoria saveCategoria(Categoria categoria) {
+		System.out.println("Nova categoria salva");
 		return categoriaRepository.save(categoria);
 	}
 	
